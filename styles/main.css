@@ -48,7 +48,7 @@ header {
         text-indent: 30px;
 
 
-    img {
+    & img {
 
         float: left;
     }
@@ -66,12 +66,10 @@ main {
 }
 
 footer {
-
-
+	& p {
+		text-align: center;
+	}
 }
-footer p{
-    text-align: center;
-    }
 
 
 .large {
