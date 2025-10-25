@@ -1,83 +1,57 @@
+/* custom property */
+:root {
+	--accent-color: #800000;  /* could also be coded #800 */
+}
+
+/* default styles */
 body {
-    font-family: Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-
 }
-
-a:hover,
-a:focus {
-
-    font-style: italic;
-    color: var(--accent-color);
-
+a:hover, a:focus{
+	font-style: italic;
+	color: var(--accent-color);
 }
-
 h1 {
-   font-size: 150%;
-
+	font-size: 150%;
 }
-
 h2 {
-
-    font-size: 130%;
-    color: var(--accent-color);
-
+	font-size: 130%;
+	color: var(--accent-color);
 }
-
 h3 {
-
-font-size: 105%;
-
+	font-size: 105%;
 }
 
-
-
+/* the styles for the header */
 header {
-
-    h2 {
-
-        font-size: 170%;
-        text-indent: 30px;
-
-    }
-
-    h3 {
-
-        font-size: 130%;
-        font-style: italic;
-        text-indent: 30px;
-
-
-    & img {
-
-        float: left;
-    }
-
-    }
-
+	& h2 {
+		font-size: 175%;
+		text-indent: 30px;
+	}
+	& h3 {
+		font-size: 130%;
+		font-style: italic;
+		text-indent: 30px;
+	}
+	& img {
+		float: left;
+	}
 }
 
-
+/* the styles for the main content */
 main {
-
-    clear: left;
-
-
+	clear: left;
 }
 
+/* the styles for the footer */
 footer {
 	& p {
 		text-align: center;
 	}
 }
 
-
+/* CSS class */
 .large {
-
-    font-size: 125%;
-}
-
-
-:root {
-    --accent-color: #4d0080;
+	font-size: 125%;
 }
